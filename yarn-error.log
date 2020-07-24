@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/dharmon/.nvm/versions/node/v14.6.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js
+
+PATH: 
+  /Users/dharmon/.rvm/gems/ruby-2.6.1/bin:/Users/dharmon/.rvm/gems/ruby-2.6.1@global/bin:/Users/dharmon/.rvm/rubies/ruby-2.6.1/bin:/usr/local/opt/ncurses/bin:/Users/dharmon/.nvm/versions/node/v14.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/dharmon/.rvm/gems/ruby-2.6.1/bin:/Users/dharmon/.rvm/gems/ruby-2.6.1@global/bin:/Users/dharmon/.rvm/rubies/ruby-2.6.1/bin:/usr/local/opt/ncurses/bin:/path/to/elixir/bin:/Users/dharmon/.rvm/bin:/path/to/elixir/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@gatsby-theme-flexiblog%2ftheme-minimal: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1244:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+  	"name": "@gatsby-starter-flexiblog/minimal",
+  	"private": true,
+  	"version": "1.0.0",
+  	"scripts": {
+  		"develop": "gatsby develop",
+  		"start": "gatsby develop",
+  		"build": "gatsby build",
+  		"clean": "gatsby clean",
+  		"serve": "gatsby serve"
+  	},
+  	"dependencies": {
+  		"@gatsby-theme-flexiblog/theme-minimal": "*",
+  		"gatsby": "^2.19.45",
+  		"react": "^16.12.0",
+  		"react-dom": "^16.12.0"
+  	},
+  	"devDependencies": {
+  		"prettier": "^1.19.1"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
